@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="https://www.pngkey.com/png/detail/232-2326777_blogger-logo-icons-no-attribution-white-blog-icon.png">
+    <title>Blog</title>
+</head>
+<body>
+    <h1>Welcome to the Blog!</h1>
+    <a href="/newpost">Create a New Post</a>
+    <ul>
+        <% posts.forEach(post => { %>
+            <li class="card">
+                <h2><%= post.title %></h2>
+                <p><%= post.content %></p>
+            </li>
+        <% }); %>
+    </ul>
+</body>
+</html>
