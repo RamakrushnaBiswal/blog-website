@@ -10,18 +10,48 @@ body {
 h1 {
     color: wheat;
     font-size: 80px;
+    text-align: center;
 }
-a{
+#nps{
     border: 1px solid #fff;
     padding: 10px;
-    margin-left: 50px;
     text-decoration: none;
     color: #f5d7db;
     font-weight: 700;
     background-color: #b51a2b;
     border-radius: 10px;
     font-size: 25px;
+    transition: 0.3s ease;
+    text-align: center;
+    margin: 0 600px;
+}
+.screen{
+    text-decoration: none;
+    color: #000;
+}
+nav {
+    background-color: transparent;
+    padding: 15px;
+    text-align: center;
+}
 
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    transition: 0.3s ease-in-out;
+    font-size: 20px;
+    filter: drop-shadow(10px);
+}
+nav a:hover{
+    color: #2568FB;
+    background-color: rgba(221, 221, 221, 0.753);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#nps:hover{
+    background-color: #2568FB;
 }
 ul {
     list-style: none;
