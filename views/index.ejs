@@ -16,7 +16,7 @@
     </nav>
     <h1>Welcome to the Blog!</h1>
     <% if (typeof userLoggedIn === 'undefined' || !userLoggedIn) { %>
-        <div id="nps"><a href="/login">Login/Signup</a></div>
+        <div id="nps"><a href="/login" class="screen">Login/Signup</a></div>
     <% } else { %>
         <div id="nps"><a href="/newpost" class="screen">Create a New Post</a></div>
     <% } %>

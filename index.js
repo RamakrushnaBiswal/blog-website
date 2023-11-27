@@ -74,7 +74,7 @@ app.get("/signup", (req, res) => {
 });
 
 app.get("/login", (req, res) => {
-  res.render("/");
+  res.render("login");
 });
 
 app.post('/newpost',isLoggedIn, upload.single('image'), async (req, res) => {
