@@ -33,7 +33,7 @@ app.use(session({
     secret: 'swsSwHklYhL027G1eQOjBBIZ92bhpAVj',
     resave: false,
     saveUninitialized: true,
-  }));
+}));
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.set('view engine', 'ejs');
